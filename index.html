@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Urban Nomad • Photography Portfolio</title>
+  <meta name="description" content="Photography portfolio for the Urban Nomad concept: high-contrast street photography with gritty film-grain aesthetics." />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip" href="#gallery">Skip to gallery</a>
+
+  <header class="topbar">
+    <div class="wrap topbar__inner">
+      <a class="brand" href="#top" aria-label="Go to top">
+        <span class="brand__mark">UN</span>
+        <span class="brand__text">Urban Nomad</span>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <a href="#concept">Concept</a>
+        <a href="#plan">Shoot Plan</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#photographer">Photographer</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button class="iconbtn" id="themeToggle" aria-label="Toggle theme" title="Toggle theme">
+        <span aria-hidden="true">☾</span>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero wrap">
+      <div class="hero__copy">
+        <p class="kicker">Photography Portfolio</p>
+        <h1>Urban Nomad</h1>
+        <p class="lede">Resilience and individuality — contemporary streetwear in concrete spaces.</p>
+        <div class="hero__cta">
+          <a class="btn" href="#gallery">View gallery</a>
+          <a class="btn btn--ghost" href="#plan">Read the plan</a>
+        </div>
+        <p class="micro">Editorial + e‑commerce friendly. High contrast, desaturated tones, film grain.</p>
+      </div>
+
+      <div class="hero__frame" aria-label="Featured photo">
+        <img src="assets/images/DSC01248_1600.jpg" alt="Editorial photo DSC01248" loading="eager" />
+      </div>
+    </section>
+
+    <section id="concept" class="section wrap">
+      <h2>Concept</h2>
+      <div class="grid2">
+        <div class="card">
+          <h3>Urban Nomad</h3>
+          <p>Showcasing resilience and individuality through contemporary streetwear.</p>
+          <ul>
+            <li><strong>Editorial:</strong> Focus on movement and texture in concrete urban environments.</li>
+            <li><strong>E‑commerce:</strong> Clean, accurate representation of fit and material.</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Visual Direction</h3>
+          <ul>
+            <li>High‑contrast street photography</li>
+            <li>Gritty film grain aesthetics</li>
+            <li>Strong architectural lines</li>
+            <li>Inspired by Hypebeast + high‑end sneaker campaigns</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="plan" class="section wrap">
+      <h2>Photoshoot Plan</h2>
+
+      <div class="accordion" data-accordion>
+        <button class="accordion__btn" aria-expanded="true">
+          Location & Lighting
+          <span class="accordion__chev" aria-hidden="true">⌄</span>
+        </button>
+        <div class="accordion__panel">
+          <div class="grid2">
+            <div>
+              <h3>Location</h3>
+              <ul>
+                <li>Industrial sites: car parks, loading docks, carpark garden</li>
+              </ul>
+            </div>
+            <div>
+              <h3>Lighting</h3>
+              <ul>
+                <li><strong>Editorial:</strong> Natural light + harsh off‑camera flash for dramatic shadows</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <button class="accordion__btn" aria-expanded="false">
+          Equipment
+          <span class="accordion__chev" aria-hidden="true">⌄</span>
+        </button>
+        <div class="accordion__panel" hidden>
+          <div class="card">
+            <ul class="cols">
+              <li>DSLR/Mirrorless camera</li>
+              <li>24–70mm lens</li>
+              <li>Off‑camera flash</li>
+              <li>Light stand</li>
+            </ul>
+          </div>
+        </div>
+
+        <button class="accordion__btn" aria-expanded="false">
+          Post‑Production Look
+          <span class="accordion__chev" aria-hidden="true">⌄</span>
+        </button>
+        <div class="accordion__panel" hidden>
+          <div class="card">
+            <ul class="cols">
+              <li>High contrast, desaturated tones</li>
+              <li>Film grain</li>
+              <li>Sharpened textures</li>
+              <li>Subtle vignetting</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="section wrap">
+      <div class="section__head">
+        <h2>Gallery</h2>
+        <p class="muted">Filter by category. Tap any image to open the lightbox.</p>
+      </div>
+
+      <div class="toolbar" aria-label="Gallery filters">
+        <div class="chips" id="chips"></div>
+        <div class="search">
+          <label class="sr-only" for="searchInput">Search photos</label>
+          <input id="searchInput" type="search" placeholder="Search (e.g. portrait, product…)" autocomplete="off" />
+        </div>
+      </div>
+
+      <div class="masonry" id="masonry" aria-live="polite"></div>
+    </section>
+
+    
+    <section id="photographer" class="section wrap">
+      <h2>Photographer</h2>
+      <div class="grid2">
+        <div class="card">
+          <h3 id="phName"></h3>
+          <p id="phBio" class="muted"></p>
+          <p class="micro">Edit this in <code>assets/site-data.json</code> → <code>photographer</code>.</p>
+        </div>
+        <div class="card">
+          <h3>Per‑Photo Details</h3>
+          <p class="muted">Each image in the lightbox shows the camera + lens, settings, and location (editable in <code>assets/site-data.json</code>).</p>
+          <ul class="cols">
+            <li>Camera body</li>
+            <li>Lens used</li>
+            <li>Focal length</li>
+            <li>Aperture</li>
+            <li>Shutter speed</li>
+            <li>ISO</li>
+            <li>Location</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section wrap">
+      <h2>Contact</h2>
+      <div class="grid2">
+        <div class="card">
+          <p class="muted">Want to collab or book a shoot?</p>
+          <p><a class="link" href="mailto:your@email.com">23051405@myrp.edu.sg</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <p>© <span id="year"></span> Urban Nomad • Built for GitHub Pages</p>
+    </div>
+  </footer>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-label="Image viewer">
+    <button class="lightbox__close" id="lbClose" aria-label="Close">×</button>
+    <button class="lightbox__nav lightbox__nav--prev" id="lbPrev" aria-label="Previous">‹</button>
+    <button class="lightbox__nav lightbox__nav--next" id="lbNext" aria-label="Next">›</button>
+
+    <figure class="lightbox__figure">
+      <img id="lbImg" alt="" />
+      <figcaption id="lbCap" class="lightbox__cap"></figcaption>
+    </figure>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

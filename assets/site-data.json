@@ -1,0 +1,110 @@
+{
+  "brand": "Urban Nomad",
+  "tagline": "Resilience and individuality — contemporary streetwear in concrete spaces.",
+  "categories": [
+    "All",
+    "Footwear Focus",
+    "Casual Fits",
+    "Street Style"
+  ],
+  "photos": [
+    {
+      "id": "DSC01248",
+      "title": "DSC01248",
+      "category": "Street Style",
+      "src": "assets/images/DSC01248_1600.jpg",
+      "thumb": "assets/thumbs/DSC01248_600.jpg",
+      "alt": "Editorial photo DSC01248",
+      "caption": "Editorial",
+      "location": "Concrete pillar in multi-storey carpark",
+      "camera": "Sony Alpha 7R IV",
+      "lens": "Sony FE 35mm F1.8 (SEL35F18F)",
+      "settings": {
+        "focal": "35mm",
+        "aperture": "f/1.8",
+        "shutter": "1/250",
+        "iso": "100"
+      }
+    },
+    {
+      "id": "DSC01166",
+      "title": "DSC01166",
+      "category": "Casual Fits",
+      "src": "assets/images/DSC01166_1600.jpg",
+      "thumb": "assets/thumbs/DSC01166_600.jpg",
+      "alt": "Editorial photo DSC01166",
+      "caption": "Editorial",
+      "location": "Multi-storey carpark stairwell",
+      "camera": "Sony Alpha 7R IV",
+      "lens": "Sony FE 35mm F1.8 (SEL35F18F)",
+      "settings": {
+        "focal": "35mm",
+        "aperture": "f/1.8",
+        "shutter": "1/200",
+        "iso": "100"
+      }
+    },
+    {
+      "id": "DSC01173",
+      "title": "DSC01173",
+      "category": "Casual Fits",
+      "src": "assets/images/DSC01173_1600.jpg",
+      "thumb": "assets/thumbs/DSC01173_600.jpg",
+      "alt": "Editorial photo DSC01173",
+      "caption": "Editorial",
+      "location": "carpark terrace",
+      "camera": "Sony Alpha 7R IV",
+      "lens": "Sony FE 35mm F1.8 (SEL35F18F)",
+      "settings": {
+        "focal": "35mm",
+        "aperture": "f/1.8",
+        "shutter": "1/250",
+        "iso": "100"
+      }
+    },
+    {
+      "id": "DSC01236",
+      "title": "DSC01236",
+      "category": "Casual Fits",
+      "src": "assets/images/DSC01236_1600.jpg",
+      "thumb": "assets/thumbs/DSC01236_600.jpg",
+      "alt": "Portraits photo DSC01236",
+      "caption": "Portraits",
+      "location": "Outdoor lawn beside carpark",
+      "camera": "Sony Alpha 7R IV",
+      "lens": "Sony FE 35mm F1.8 (SEL35F18F)",
+      "settings": {
+        "focal": "35mm",
+        "aperture": "f/1.8",
+        "shutter": "1/250",
+        "iso": 100
+      }
+    },
+    {
+      "id": "DSC01123",
+      "title": "DSC01123",
+      "category": "Footwear Focus",
+      "src": "assets/images/DSC01123_1600.jpg",
+      "thumb": "assets/thumbs/DSC01123_600.jpg",
+      "alt": "Product photo DSC01123",
+      "caption": "Product",
+      "location": "loading-bay corner",
+      "camera": "Sony Alpha 7R IV",
+      "lens": "Sony FE 35mm F1.8 (SEL35F18F)",
+      "settings": {
+        "focal": "35mm",
+        "aperture": "f/1.8",
+        "shutter": "1/160",
+        "iso": "100"
+      }
+    }
+  ],
+  "contact": {
+    "email": "23051405@myrp.edu.sg",
+    "instagram": "@yourhandle"
+  },
+  "photographer": {
+    "name": "Vishnu",
+    "bio": "Hi, I’m a final‑year RP student studying Cyber Security in the School of Infocom, and these photos are little snippets of my interest in photography. My style leans towards high‑contrast street/editorial frames with slightly desaturated tones, a subtle film‑grain feel, and a mix of wider lifestyle shots plus tight product details (especially footwear). For this set, I shot around concrete-heavy urban spots like multi‑storey carparks, stairwells, walkways, and shutter/loading‑bay corners, and I also used nearby greenery to contrast the hard architecture."
+  }
+}
